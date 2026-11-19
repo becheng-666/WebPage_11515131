@@ -768,6 +768,20 @@ button {
   line-height: 1.5;
 }
 
+.contact-link {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--color-secondary);
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+}
+
+.contact-link:hover,
+.contact-link:focus-visible {
+  color: var(--color-secondary);
+  text-decoration-color: var(--color-secondary-hover);
+}
+
 .info-status-tag {
   display: inline-block;
   font-size: 0.75rem;
