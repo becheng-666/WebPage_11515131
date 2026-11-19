@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="哈基米挽肉官方網站｜一份美味漢堡排，讓每一餐都充滿幸福感。嚴選新鮮食材，搭配香嫩多汁的漢堡肉排與粒粒飽滿的米飯，帶給你簡單又滿足的美味時光。">
+  <title>首頁｜哈基米挽肉 - 美味漢堡排與米食料理</title>
+  <!-- 共用樣式表 -->
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+  <!-- 全站共用頂部導覽列 -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- 品牌標誌 (連回首頁) -->
+      <a href="index.html" class="brand-logo" title="回哈基米挽肉首頁">
+        <img src="assets/images/logo.svg" alt="哈基米挽肉品牌標誌" class="brand-icon">
+        <span>哈基米挽肉</span>
+        <span class="brand-badge">日式洋食</span>
+      </a>
+
+      <!-- 手機版展開 / 收合選單按鈕 -->
+      <button type="button" class="nav-toggle" aria-label="開啟選單" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <!-- 導覽選單 (標示目前所在頁面：首頁) -->
+      <nav id="primary-nav" class="nav-menu" aria-label="主要導覽">
+        <a href="index.html" class="nav-link active" aria-current="page">首頁</a>
+        <a href="about.html" class="nav-link">關於我們</a>
+        <a href="contact.html" class="nav-link">聯絡我們</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主要內容區 -->
+  <main class="main-content">
+    
+    <!-- 1. 首頁主視覺區 (Hero Section) -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="section-tag">新鮮現烤・職人溫度</span>
+          <h1 class="hero-title">一份美味漢堡排，<br>讓每一餐都充滿幸福感。</h1>
+          <p class="hero-subtitle">
+            嚴選新鮮食材，搭配香嫩多汁的漢堡肉排與粒粒飽滿的米飯，帶給你簡單又滿足的美味時光。
+          </p>
+          <div class="btn-group">
+            <a href="about.html" class="btn btn-primary">認識我們</a>
+            <a href="contact.html" class="btn btn-outline">聯絡我們</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/images/hero-hambagu.svg" alt="現烤美味漢堡排搭配現炊白米飯與精選配菜主視覺" width="600" height="400" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 品牌簡介區塊 (Brand Introduction) -->
+    <section class="section">
+      <div class="container">
+        <div class="intro-grid">
+          <div>
+            <span class="section-tag">品牌簡介</span>
+            <h2 class="section-title">講究純粹，<br>現做現烤的真實美味</h2>
+            <p class="section-desc">
+              在「哈基米挽肉」，我們相信真正撫慰人心的料理，來自對食材的敬意與細膩的料理工藝。我們不使用人工添加物，堅持每一份肉排都在客人眼前現煎現烤，鎖住最豐富的天然肉汁。
+            </p>
+            <div class="intro-highlight-box">
+              <p class="intro-highlight-text">
+                以熱騰騰的白米飯為底，鋪上滋滋作響的炭火漢堡排，交織出純樸而深厚的美好日常。
+              </p>
+            </div>
+          </div>
+          <div class="intro-card">
+            <h3 style="font-size: 1.25rem; color: var(--color-primary); margin-bottom: 0.75rem; font-weight: 700;">
+              我們的料理堅持
+            </h3>
+            <p style="color: var(--color-text-muted); font-size: 0.975rem; line-height: 1.75; margin-bottom: 1rem;">
+              從清晨原塊肉的黃金配比切分、手工拍打排氣，到專用羽釜鍋的大火炊煮，每一個步驟都傾注了職人的專注心意。
+            </p>
+            <p style="color: var(--color-text-muted); font-size: 0.975rem; line-height: 1.75;">
+              無論是匆忙的午餐時光，或是犒賞自己的溫馨晚餐，我們都希望每一口都能讓您品嚐到安心、溫度與滿足感。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 三項特色區塊 (Three Highlights) -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">三大核心特色</span>
+          <h2 class="section-title">用心打造的三大美味支柱</h2>
+          <p class="section-desc">
+            回歸食材的原點，以嚴謹態度打磨每一個細節，呈現最富層次的味覺饗宴。
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- 特色 1 -->
+          <article class="feature-card">
+            <div class="feature-img-wrapper">
+              <img src="assets/images/feature-ingredients.svg" alt="嚴選新鮮產地食材示意圖" loading="lazy">
+            </div>
+            <div class="feature-body">
+              <span class="feature-badge">特色一</span>
+              <h3 class="feature-title">嚴選優質食材</h3>
+              <p class="feature-desc">
+                精心挑選新鮮食材，注重每一道料理的品質。產地直送鮮蔬與合格安心肉品，從源頭把關健康。
+              </p>
+            </div>
+          </article>
+
+          <!-- 特色 2 -->
+          <article class="feature-card">
+            <div class="feature-img-wrapper">
+              <img src="assets/images/feature-patty.svg" alt="手作炭火煎烤美味漢堡排示意圖" loading="lazy">
+            </div>
+            <div class="feature-body">
+              <span class="feature-badge">特色二</span>
+              <h3 class="feature-title">手作美味漢堡排</h3>
+              <p class="feature-desc">
+                用心製作香嫩多汁的漢堡肉排，呈現豐富口感。黃金比例手工拍打，高溫煎烤牢牢鎖住香濃肉汁。
+              </p>
+            </div>
+          </article>
+
+          <!-- 特色 3 -->
+          <article class="feature-card">
+            <div class="feature-img-wrapper">
+              <img src="assets/images/feature-rice.svg" alt="羽釜炊煮香Q飽滿米飯示意圖" loading="lazy">
+            </div>
+            <div class="feature-body">
+              <span class="feature-badge">特色三</span>
+              <h3 class="feature-title">香Q飽滿米飯</h3>
+              <p class="feature-desc">
+                搭配口感絕佳的米飯，打造營養又滿足的一餐。特選在地好米配合羽釜炊煮，米粒晶瑩清甜有彈性。
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 品牌標語橫幅區 (Slogan Banner) -->
+    <section class="slogan-banner">
+      <div class="container">
+        <p class="slogan-tag">BRAND PROMISE</p>
+        <p class="slogan-title">「以新鮮食材，製作每一份美味漢堡排與米食料理。」</p>
+        <div style="margin-top: 1.5rem;">
+          <a href="about.html" class="btn btn-secondary">深入了解品牌故事</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 全站共用頁尾 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">哈基米挽肉</div>
+          <p class="footer-brand-slogan">以新鮮食材，製作每一份美味漢堡排與米食料理。</p>
+        </div>
+        <!-- 頁尾頁面連結 -->
+        <nav class="footer-nav" aria-label="頁尾導覽">
+          <a href="index.html" class="footer-nav-link active">首頁</a>
+          <a href="about.html" class="footer-nav-link">關於我們</a>
+          <a href="contact.html" class="footer-nav-link">聯絡我們</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 哈基米挽肉 (Hakimi Hamburg Steak). 保留所有權利。</p>
+        <p>嚴選食材・手作肉排・香Q米食</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 共用 JavaScript -->
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

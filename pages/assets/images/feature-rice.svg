@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="riceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F2E9DE"/>
+    </linearGradient>
+    <linearGradient id="ricePot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F4640"/>
+      <stop offset="50%" stop-color="#342D28"/>
+      <stop offset="100%" stop-color="#211B17"/>
+    </linearGradient>
+    <filter id="riceFilter" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#5C3A21" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" rx="16" fill="url(#riceBg)"/>
+  <circle cx="200" cy="145" r="105" fill="#EADCCF" opacity="0.45"/>
+
+  <!-- Japanese Traditional Hagama / Rice Bowl Group -->
+  <g filter="url(#riceFilter)" transform="translate(0, 10)">
+    <!-- Rice Bowl Exterior -->
+    <path d="M 125,145 C 130,205 165,225 200,225 C 235,225 270,205 275,145 Z" fill="url(#ricePot)" stroke="#5E534B" stroke-width="3"/>
+    
+    <!-- Bowl Foot Ring -->
+    <ellipse cx="200" cy="225" rx="36" ry="7" fill="#1C1816"/>
+
+    <!-- Bowl Rim Rim Inner -->
+    <ellipse cx="200" cy="145" rx="75" ry="18" fill="#ECE5DA" stroke="#CEC2B0" stroke-width="2"/>
+
+    <!-- Steaming Fluffy White Rice Mound -->
+    <path d="M 132,143 C 138,105 165,85 200,85 C 235,85 262,105 268,143 C 250,154 225,160 200,160 C 175,160 150,154 132,143 Z" fill="#FFFFFF"/>
+    
+    <!-- Delicate Rice Grains Accents -->
+    <ellipse cx="175" cy="118" rx="8" ry="4" fill="#E9E2D5" transform="rotate(-20, 175, 118)"/>
+    <ellipse cx="225" cy="116" rx="8" ry="4" fill="#E9E2D5" transform="rotate(25, 225, 116)"/>
+    <ellipse cx="200" cy="104" rx="7" ry="4" fill="#E9E2D5"/>
+    <ellipse cx="160" cy="132" rx="7" ry="3.5" fill="#E9E2D5" transform="rotate(10, 160, 132)"/>
+    <ellipse cx="240" cy="130" rx="7" ry="3.5" fill="#E9E2D5" transform="rotate(-15, 240, 130)"/>
+    <ellipse cx="202" cy="136" rx="8" ry="4" fill="#E9E2D5"/>
+
+    <!-- Rice Ears / Wheat Icon Ornament on side (Deep green accent) -->
+    <path d="M 105,175 Q 95,140 102,105" fill="none" stroke="#2D5A3F" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="98" cy="120" rx="5" ry="9" fill="#2D5A3F" transform="rotate(-30, 98, 120)"/>
+    <ellipse cx="106" cy="135" rx="5" ry="9" fill="#3D7B54" transform="rotate(30, 106, 135)"/>
+    <ellipse cx="96" cy="150" rx="5" ry="9" fill="#2D5A3F" transform="rotate(-30, 96, 150)"/>
+
+    <!-- Rising Rice Steam -->
+    <path d="M 185,75 Q 175,50 188,30" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 215,70 Q 225,45 212,25" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="110" y="240" width="180" height="36" rx="18" fill="#2D5A3F"/>
+  <text x="200" y="263" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="14" font-weight="700" text-anchor="middle">羽釜炊煮・香Q飽滿</text>
+</svg>

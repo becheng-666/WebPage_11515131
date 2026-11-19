@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ingBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F2E9DE"/>
+    </linearGradient>
+    <filter id="fShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#5C3A21" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" rx="16" fill="url(#ingBg)"/>
+  <circle cx="200" cy="150" r="105" fill="#EADCCF" opacity="0.45"/>
+
+  <!-- Visual Group: Fresh organic ingredients -->
+  <g filter="url(#fShadow)" transform="translate(20, 10)">
+    <!-- Woven Wooden Basket / Tray -->
+    <ellipse cx="180" cy="190" rx="130" ry="42" fill="#D2B596" stroke="#9A7550" stroke-width="3"/>
+    <ellipse cx="180" cy="184" rx="120" ry="34" fill="#E5CEB4"/>
+
+    <!-- Fresh Eggs -->
+    <ellipse cx="230" cy="165" rx="19" ry="25" fill="#F4DEB8" stroke="#D3B484" stroke-width="2" transform="rotate(15, 230, 165)"/>
+    <ellipse cx="260" cy="172" rx="18" ry="24" fill="#F8E9CE" stroke="#D3B484" stroke-width="2" transform="rotate(30, 260, 172)"/>
+
+    <!-- Fresh Green Herbs / Farm Greens (Deep Green accent) -->
+    <path d="M 120,180 C 100,140 120,110 145,100 C 150,125 140,155 130,175 Z" fill="#2D5A3F"/>
+    <path d="M 140,175 C 135,130 160,115 180,105 C 180,135 165,160 148,175 Z" fill="#3D7B54"/>
+    <path d="M 105,170 C 85,150 90,130 110,120 C 118,140 112,160 105,170 Z" fill="#22482E"/>
+
+    <!-- Premium Fresh Cut Beef / Pork Medallion -->
+    <ellipse cx="180" cy="160" rx="42" ry="28" fill="#B34438" stroke="#872920" stroke-width="3"/>
+    <path d="M 155,155 Q 180,165 205,155" stroke="#F0C7C2" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 160,165 Q 180,175 200,168" stroke="#F0C7C2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Crisp Garlic Bulb & Peppercorns -->
+    <circle cx="120" cy="180" r="14" fill="#FFFDF8" stroke="#DAC9B2" stroke-width="2"/>
+    <path d="M 120,166 L 120,160" stroke="#8E7860" stroke-width="2"/>
+    <circle cx="215" cy="188" r="4" fill="#362215"/>
+    <circle cx="205" cy="192" r="3" fill="#362215"/>
+    <circle cx="150" cy="190" r="3.5" fill="#362215"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="110" y="235" width="180" height="36" rx="18" fill="#2D5A3F"/>
+  <text x="200" y="258" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="14" font-weight="700" text-anchor="middle">產地嚴選・純粹天然</text>
+</svg>

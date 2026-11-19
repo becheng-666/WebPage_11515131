@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="contactBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="60%" stop-color="#F2EAE0"/>
+      <stop offset="100%" stop-color="#E5D9CB"/>
+    </linearGradient>
+    <filter id="storeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5C3A21" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" rx="20" fill="url(#contactBg)"/>
+
+  <!-- Store Facade Illustration -->
+  <g filter="url(#storeShadow)" transform="translate(100, 40)">
+    <!-- Main Wall -->
+    <rect x="20" y="70" width="360" height="230" rx="4" fill="#FBF8F2" stroke="#D3C3B1" stroke-width="3"/>
+    
+    <!-- Deep Green Eaves / Awning (深綠色屋簷門面) -->
+    <path d="M 0,70 L 400,70 L 385,25 L 15,25 Z" fill="#2D5A3F" stroke="#1D3E2B" stroke-width="3"/>
+    <g stroke="#22482E" stroke-width="2">
+      <line x1="50" y1="25" x2="45" y2="70"/>
+      <line x1="100" y1="25" x2="95" y2="70"/>
+      <line x1="150" y1="25" x2="148" y2="70"/>
+      <line x1="200" y1="25" x2="200" y2="70"/>
+      <line x1="250" y1="25" x2="252" y2="70"/>
+      <line x1="300" y1="25" x2="305" y2="70"/>
+      <line x1="350" y1="25" x2="355" y2="70"/>
+    </g>
+
+    <!-- Warm Wooden Signboard -->
+    <rect x="90" y="82" width="220" height="44" rx="6" fill="#6A4628" stroke="#482F19" stroke-width="2.5"/>
+    <text x="200" y="110" fill="#FFF8EE" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="2">哈基米挽肉</text>
+
+    <!-- Japanese Noren (暖簾) Hanging above door -->
+    <rect x="150" y="145" width="48" height="55" fill="#2D5A3F"/>
+    <rect x="202" y="145" width="48" height="55" fill="#2D5A3F"/>
+    <text x="174" y="178" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="16" font-weight="700" text-anchor="middle">哈</text>
+    <text x="226" y="178" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="16" font-weight="700" text-anchor="middle">肉</text>
+
+    <!-- Wooden Glass Sliding Door -->
+    <rect x="145" y="140" width="110" height="160" fill="#E6DACB" stroke="#754E2B" stroke-width="3"/>
+    <rect x="150" y="200" width="48" height="95" fill="#FFFDF8" stroke="#A6876D" stroke-width="2"/>
+    <rect x="202" y="200" width="48" height="95" fill="#FFFDF8" stroke="#A6876D" stroke-width="2"/>
+
+    <!-- Large Display Window (Right) -->
+    <rect x="275" y="145" width="90" height="120" rx="3" fill="#FFFDF8" stroke="#754E2B" stroke-width="2.5"/>
+    <line x1="320" y1="145" x2="320" y2="265" stroke="#A6876D" stroke-width="2"/>
+    <line x1="275" y1="205" x2="365" y2="205" stroke="#A6876D" stroke-width="2"/>
+
+    <!-- Potted Plant (Left) -->
+    <rect x="45" y="245" width="30" height="30" rx="4" fill="#C49A6C"/>
+    <circle cx="60" cy="235" r="18" fill="#2D5A3F"/>
+    <circle cx="50" cy="230" r="12" fill="#3D7B54"/>
+    <circle cx="70" cy="232" r="14" fill="#22482E"/>
+
+    <!-- Lantern beside Door -->
+    <rect x="110" y="160" width="22" height="40" rx="5" fill="#FFE2A4" stroke="#754E2B" stroke-width="2"/>
+    <rect x="114" y="155" width="14" height="5" fill="#482F19"/>
+    <line x1="121" y1="150" x2="121" y2="155" stroke="#482F19" stroke-width="2"/>
+    <line x1="105" y1="150" x2="121" y2="150" stroke="#482F19" stroke-width="2"/>
+  </g>
+
+  <!-- Location Map Pin Overlay -->
+  <g transform="translate(435, 95)" filter="url(#storeShadow)">
+    <circle cx="30" cy="30" r="28" fill="#B34438" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M 12,38 L 30,70 L 48,38 Z" fill="#B34438"/>
+    <!-- Inner Pin Icon: Store -->
+    <path d="M 20,28 L 30,19 L 40,28 L 40,38 L 20,38 Z" fill="#FFFFFF"/>
+    <rect x="26" y="30" width="8" height="8" fill="#B34438"/>
+  </g>
+
+  <!-- Location Address Ribbon -->
+  <rect x="120" y="340" width="360" height="38" rx="19" fill="#2D5A3F"/>
+  <text x="300" y="364" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">臺中市西屯區僑光路100號</text>
+</svg>

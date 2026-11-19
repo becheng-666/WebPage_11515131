@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="storyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="60%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#EADBCC"/>
+    </linearGradient>
+    <filter id="storyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5C3A21" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" rx="20" fill="url(#storyBg)"/>
+  
+  <!-- Subtle geometric background accent circles -->
+  <circle cx="300" cy="200" r="160" fill="none" stroke="#DBCBB8" stroke-width="2" stroke-dasharray="8,6"/>
+  <circle cx="300" cy="200" r="130" fill="#EFE5D8" opacity="0.4"/>
+
+  <!-- Story Illustration: Artisan Kitchen Workbench, Chef Hat, Sizzling Pan and Handcrafted Patty -->
+  <g filter="url(#storyShadow)">
+    <!-- Wooden Tabletop -->
+    <rect x="70" y="270" width="460" height="24" rx="6" fill="#A8825F" stroke="#7E5D3E" stroke-width="2"/>
+    <rect x="90" y="294" width="420" height="12" fill="#8F6A48" opacity="0.6"/>
+
+    <!-- Chef Hat Symbol of Artisan Dedication -->
+    <g transform="translate(255, 65)">
+      <path d="M 25,65 C 5,65 0,45 10,35 C 5,20 25,5 45,15 C 60,-5 80,10 80,25 C 95,30 90,55 75,65 Z" fill="#FFFFFF" stroke="#D1C4B2" stroke-width="2.5"/>
+      <rect x="23" y="65" width="54" height="15" rx="3" fill="#F4EFE6" stroke="#D1C4B2" stroke-width="2"/>
+      <!-- Green Ribbon on Chef Hat -->
+      <rect x="23" y="70" width="54" height="4" fill="#2D5A3F"/>
+    </g>
+
+    <!-- Cast Iron Skillet with Handle -->
+    <g transform="translate(140, 150)">
+      <!-- Skillet Handle -->
+      <rect x="220" y="55" width="85" height="18" rx="8" fill="#3D342E" transform="rotate(-15, 220, 55)"/>
+      <circle cx="300" cy="40" r="6" fill="#F5EFE6"/>
+      
+      <!-- Pan Body -->
+      <ellipse cx="140" cy="80" rx="100" ry="46" fill="#29231E" stroke="#4D423A" stroke-width="4"/>
+      <ellipse cx="140" cy="76" rx="92" ry="38" fill="#1C1815"/>
+
+      <!-- Sizzling Patty Inside Pan -->
+      <ellipse cx="140" cy="74" rx="55" ry="24" fill="#6B4121"/>
+      <ellipse cx="140" cy="71" rx="50" ry="20" fill="#845129"/>
+      <!-- Grill marks -->
+      <path d="M 110,68 Q 140,75 170,68" stroke="#361B09" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 115,76 Q 140,82 165,76" stroke="#361B09" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Steam -->
+      <path d="M 125,50 Q 115,25 125,5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+      <path d="M 155,45 Q 165,20 152,0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+    </g>
+
+    <!-- Fresh Pepper Grinder & Salt Cellar -->
+    <g transform="translate(415, 185)">
+      <!-- Wooden Mill -->
+      <rect x="0" y="25" width="26" height="55" rx="5" fill="#754C28" stroke="#503117" stroke-width="2"/>
+      <ellipse cx="13" cy="25" rx="13" ry="5" fill="#8C5C33"/>
+      <circle cx="13" cy="15" r="7" fill="#C49A6C"/>
+      <rect x="11" y="8" width="4" height="7" fill="#503117"/>
+    </g>
+
+    <!-- Olive Oil Pitcher (Deep Green) -->
+    <g transform="translate(130, 195)">
+      <path d="M 10,70 L 28,70 L 24,35 L 14,35 Z" fill="#2D5A3F" stroke="#1D3C29" stroke-width="2"/>
+      <rect x="16" y="25" width="6" height="10" fill="#E2C17D"/>
+      <path d="M 28,45 Q 38,52 27,62" fill="none" stroke="#2D5A3F" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <!-- Tagline Banner on Bottom -->
+  <rect x="180" y="335" width="240" height="40" rx="20" fill="#2D5A3F"/>
+  <text x="300" y="360" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans TC', sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="1">初心・手作溫度的起點</text>
+</svg>
