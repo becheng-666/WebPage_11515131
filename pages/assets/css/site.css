@@ -694,6 +694,49 @@ button {
   margin-bottom: 1.5rem;
 }
 
+/* 關於我們：用餐體驗卡片，僅作用於 .about-experience */
+.about-experience .about-experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.about-experience .about-experience-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 2rem 1.75rem;
+  box-shadow: var(--shadow-subtle);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.about-experience .about-experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--color-secondary);
+}
+
+.about-experience .about-experience-number {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--color-secondary);
+  line-height: 1;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.about-experience .about-experience-title {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.about-experience .about-experience-desc {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
 /* 7. 聯絡我們專屬樣式 (contact.html) */
 .contact-layout {
   display: grid;
@@ -1057,6 +1100,17 @@ button {
   }
 }
 
+@media (max-width: 992px) {
+  .about-experience .about-experience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-experience .about-experience-grid {
+    grid-template-columns: 1fr;
+  }
+}
 /* 無障礙焦點樣式 */
 :focus-visible {
   outline: 3px solid var(--color-secondary);
